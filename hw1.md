@@ -121,4 +121,4 @@ address: 0x3728af2060bc193cf29cba9642110fef1bddeb12
 
 > Write an article, specify detailed background and problem statement as well as the scheme on how to address the problem. And publish the article on the Medium or somewhere.
 
-article link: https://hackmd.io/U2ZMfmW0SzWeDry4dLazeg?both
+article link: https://hackmd.io/U2ZMfmW0SzWeDry4dLazeg?view
