@@ -1,23 +1,23 @@
-## §@·~´y­z
+## ï¿½@ï¿½~ï¿½yï¿½z
 
 ### (20%) 1. Please compare hash function and cryptographic hash function and give an example.
 
 Ans: 
-hash function ¯à°÷±N¤£¦P¸ê®Æ¬M®g¦¨©T©wªø«×ªº¸ê®Æ 
+hash function ï¿½ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½Pï¿½ï¿½Æ¬Mï¿½gï¿½ï¿½ï¿½Tï¿½wï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ 
 
-> ex: ±N int Âà¬° binary ¨Ã¥u¨ú«á¤T½X
+> ex: ï¿½N int ï¿½à¬° binary ï¿½Ã¥uï¿½ï¿½ï¿½ï¿½Tï¿½X
 > 9 -> 1001 -> 01
 > 11 -> 1011 -> 11
 
-cryptographic hash function ¬O hash function ªº¤@ºØ¡A¤]¦³¤HºÙ§@ one-way hash function¡A­n¨D¦³¤U¦C©Ê½è
+cryptographic hash function ï¿½O hash function ï¿½ï¿½ï¿½@ï¿½Ø¡Aï¿½]ï¿½ï¿½ï¿½Hï¿½Ù§@ one-way hash functionï¿½Aï¿½nï¿½Dï¿½ï¿½ï¿½Uï¿½Cï¿½Ê½ï¿½
     
-  1. ½T©w©Êªº(Deterministic): ¬Û¦P¿é¤Jµ¹¥X¬Û¦P¿é¥X
-  2. ¯à°÷§Ö³t­pºâ(Fast)
-  3. ¤£¥i°f(infeasible): ¤£®e©ö¥Ñ¤wª¾ hash value ±À¥X­ì©l°T®§ 
-  4. ÀH¾÷©Ê(randomness): ¤£¦P¿é¤Jµ¹¥X¤£¦P¿é¥X(´X¥G§¹¥þµLÃöªº¿é¥X)(³·±Y®ÄÀ³ avalance effect) 
-  5. Á×§K¸I¼²(collision resistance): ¤£®e©ö§ä¨ì¬Û¦P¿é¥Xªº¤£¦P¿é¤J
+  1. ï¿½Tï¿½wï¿½Êªï¿½(Deterministic): ï¿½Û¦Pï¿½ï¿½Jï¿½ï¿½ï¿½Xï¿½Û¦Pï¿½ï¿½X
+  2. ï¿½ï¿½ï¿½ï¿½Ö³tï¿½pï¿½ï¿½(Fast)
+  3. ï¿½ï¿½ï¿½iï¿½f(infeasible): ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½Ñ¤wï¿½ï¿½ hash value ï¿½ï¿½ï¿½Xï¿½ï¿½lï¿½Tï¿½ï¿½ 
+  4. ï¿½Hï¿½ï¿½ï¿½ï¿½(randomness): ï¿½ï¿½ï¿½Pï¿½ï¿½Jï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Pï¿½ï¿½X(ï¿½Xï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½X)(ï¿½ï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½ avalance effect) 
+  5. ï¿½×§Kï¿½Iï¿½ï¿½(collision resistance): ï¿½ï¿½ï¿½eï¿½ï¿½ï¿½ï¿½ï¿½Û¦Pï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½ï¿½Pï¿½ï¿½J
 
-> ex: 1 ¸ò 2 ¥u®t 1¡A¦ý¸g¹L sha256 «á¤£¦ý¿é¥X¤£¦P¡A¥B¨â¿é¥X®t²§·¥¤j
+> ex: 1 ï¿½ï¿½ 2 ï¿½uï¿½t 1ï¿½Aï¿½ï¿½ï¿½gï¿½L sha256 ï¿½á¤£ï¿½ï¿½ï¿½ï¿½Xï¿½ï¿½ï¿½Pï¿½Aï¿½Bï¿½ï¿½ï¿½Xï¿½tï¿½ï¿½ï¿½ï¿½ï¿½j
 > 1 -> sha256 -> 6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b
 > 2 -> sha256 -> d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35
 
@@ -49,7 +49,7 @@ console.log("privKey:", privKeyHex);
 const pubKeyHex = wallet.getPublicKeyString();
 console.log("pubKey:", pubKeyHex);
 ```
-°õ¦æµ²ªG
+ï¿½ï¿½ï¿½æµ²ï¿½G
 ```
 $ node 2a.js
 privKey: 0x7612f0a88a2029ed19641b75c1a0ec0f54e712173d2e34fd5238e0de9012b18e
@@ -57,7 +57,7 @@ pubKey: 0xc1603bc76cd78e51b4ae1c8b2ce85524ee1be42ec487d71d1d33fedb86ce7eb5947c29
 ```
 
 
-### (20%) b. In addition, if we don¡¦t want to use the getAddressString() to get the address, how can we obtain the address by hashing the public key?
+### (20%) b. In addition, if we donï¿½ï¿½t want to use the getAddressString() to get the address, how can we obtain the address by hashing the public key?
 
 ```javascript=
 // npm-library
@@ -74,12 +74,12 @@ console.log("pubKey:", pubKey);
 // step 2:  public_key_hash = Keccak-256(public_key)
 const public_key_hash = keccak256(pubKey);
 
-// step 3:  address = ¡¥0x¡¦ + last 20 bytes of public_key_hash
+// step 3:  address = ï¿½ï¿½0xï¿½ï¿½ + last 20 bytes of public_key_hash
 let address = "0x" + public_key_hash.substring(public_key_hash.length - 40, public_key_hash.length);
 
 console.log("address:", address);
 ```
-°õ¦æµ²ªG
+ï¿½ï¿½ï¿½æµ²ï¿½G
 ```
 $ node 2b.js
 pubKey: <Buffer 20 95 39 98 44 f1 cd 57 e9 9a d3 84 9a 11 fd fe 3a 41 b0 2b d9 07 82 f8 5c 26 39 e4 d9 7c b0 91 5f d9 e7 e1 36 dd 1f 57 6b 80 aa 36 42 20 39 75 46 7f ... >
@@ -114,9 +114,11 @@ address: 0x3728af2060bc193cf29cba9642110fef1bddeb12
 }
 ```
 
-## Bonus (Á`¦¨ÁZ¥[¤À)
+## Bonus (ï¿½`ï¿½ï¿½ï¿½Zï¿½[ï¿½ï¿½)
 
 - What is HD Wallet, BIP32, BIP39 and BIP44? (+2%) 
 - What is RFC 6979 for? (+2%)
 
 > Write an article, specify detailed background and problem statement as well as the scheme on how to address the problem. And publish the article on the Medium or somewhere.
+
+article link: https://hackmd.io/U2ZMfmW0SzWeDry4dLazeg?both
